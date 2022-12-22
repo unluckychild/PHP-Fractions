@@ -11,3 +11,24 @@ PHP class to do basic operations with fractions.
 
 Numbers can be in string mode in the following format
 "3 1/4" or "1/4" or "3";
+
+Methods:
+
+values may be in integers or strings
+
+plus($nr1,$nr2)
+minus($nr1,$nr2)
+divide($nr1,$nr2)
+multiply($nr1,$nr2)
+
+//changes into mixed or fractions
+toMixed()
+toFractions()
+
+//return as string
+getResult() 
+
+//return as number
+getWhole()
+getNumerator()
+getDenominator()
