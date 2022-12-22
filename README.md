@@ -24,6 +24,7 @@ divide($nr1,$nr2)
 
 multiply($nr1,$nr2)
 
+
 //changes into mixed or fractions
 
 toMixed()
@@ -34,6 +35,7 @@ toFractions()
 //return as string
 
 getResult() 
+
 
 //return as number
 
