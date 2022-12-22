@@ -9,3 +9,5 @@ PHP class to do basic operations with fractions.
 6) get any data - whole number, numerator, denominator. Or frations, full mixed.
 
 
+Numbers can be in string mode in the following format
+"3 1/4" or "1/4" or "3";
