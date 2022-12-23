@@ -113,6 +113,21 @@ class FractionMath{
 		}
 	}
 	
+	//get result without fractions, return number
+	public function toWhole(){
+		$string=$this->result;
+		$a=$this->makeCountable($string);
+		
+		$numerator = $a[0] / $a[1];
+		$denominator=1;
+		
+		$this->result=$numerator;
+		$this->numerator=$numerator;
+		$this->denominator=$denominator;
+
+		return $numerator;
+	}	
+	
 	//detect types (whole, fracts) and return to fracts
 	public function toFractions($string){
 		
