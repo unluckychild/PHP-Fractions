@@ -22,6 +22,10 @@ echo "from reduced to mixed: ".$gg->getResult() ."<br><br>";
 echo "convert to fractions again: ".$gg->toFractions($gg->result);
 
 echo "<br><br>";
-echo "Whole number: ".$gg->getwhole() ." Fractions: " . $gg->getFractions();
+echo "Whole number: ".$gg->getwhole() ." Fractions: " . $gg->getFractions() ." Numerator: " . $gg->getNumerator() . " Denominator: " . $gg->getDenominator();
+
+echo "<br><br>";
+$gg->toWhole();
+echo "to Whole result: ".$gg->getResult();
 
 ?>
