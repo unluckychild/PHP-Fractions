@@ -26,9 +26,11 @@ multiply($nr1,$nr2)
 
 
 
-//changes into mixed or fractions
+//changes into mixed or fractions or only number
 
 toMixed()
+
+toWhole()
 
 toFractions()
 
