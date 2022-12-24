@@ -25,7 +25,7 @@ class FractionMath{
 		
 	
 		//check if there is whole number 2 numbers next to each other
-		if (preg_match('~[0-9] [0-9]+~', $string)) {
+		if (preg_match('~[0-9]+ [0-9]+~', $string)) {
 			//whole number detected
 			$first=$this->everything_until(trim($string)," ");
 			$this->whole=trim($first);			
@@ -36,7 +36,7 @@ class FractionMath{
 		if (strpos($string,"/")!==false){
 
 			//if there is whole number, we take right place for fractions
-			if (preg_match('~[0-9] [0-9]+~', $string)) {
+			if (preg_match('~[0-9]+ [0-9]+~', $string)) {
 				$second= $this->everything_from($string," ");
 				$divided=explode("/",trim($second));
 			}else{
